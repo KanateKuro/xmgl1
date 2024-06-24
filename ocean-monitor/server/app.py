@@ -10,7 +10,6 @@ import pandas as pd
 from werkzeug.datastructures import FileStorage
 from math import isnan
 
-
 app = Flask(__name__)
 CORS(app)
 # Read database connection details from environment variables
